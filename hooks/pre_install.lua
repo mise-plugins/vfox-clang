@@ -5,6 +5,6 @@ function PLUGIN:PreInstall(ctx)
 
     return {
         url = file,
-        version = version
+        version = version,
     }
 end

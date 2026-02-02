@@ -5,6 +5,6 @@ function PLUGIN:Available(ctx)
     if cacheArg then
         clearCache()
     end
-    
+
     return fetchAvailable()
 end
